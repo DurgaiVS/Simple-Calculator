@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="simpleCalc.css" rel="stylesheet">
+    <script src="simpleCalc.js" defer></script>
+</head>
+<body>
+    <div class="calculator-grid">
+        <div class="output">
+            <div data-previous class="previous"></div>
+            <div data-current class="current"></div>
+        </div>
+        <button data-all-clear class="span-two">AC</button>
+        <button data-delete>DEL</button>
+        <button accesskey="/" data-operation>/</button>
+        <button accesskey="1" data-number>1</button>
+        <button accesskey="2" data-number>2</button>
+        <button accesskey="3" data-number>3</button>
+        <button accesskey="*" data-operation>*</button>
+        <button accesskey="4" data-number>4</button>
+        <button accesskey="5" data-number>5</button>
+        <button accesskey="6" data-number>6</button>
+        <button accesskey="+" data-operation>+</button>
+        <button accesskey="7" data-number>7</button>
+        <button accesskey="8" data-number>8</button>
+        <button accesskey="9" data-number>9</button>
+        <button accesskey="-" data-operation>-</button>
+        <button accesskey="." data-number>.</button>
+        <button accesskey="0" data-number>0</button>
+        <button accesskey="=" data-equals class="span-two">=</button>
+    </div>
+</body>
+</html>
